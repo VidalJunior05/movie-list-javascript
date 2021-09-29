@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(245, 228, 206);
+}
+.container{
+    padding:0 2%;
+}
+.description{
+    padding:10px;
+    display: none;
+}
+.popularity{
+    padding: 10px 0;
+}
+.titleMovie{
+    cursor: pointer;
+}
+.titles{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.button{
+    background-color:cadetblue;
+    display:flex;
+    width:80px;
+    padding:5px;
+    border-radius: 10px;
+    color:white;
+    margin-top:10px;
+    text-align: center;
+    display:inline-block;
+    margin-left:10px;
+    cursor: pointer;
+    transition: 2s;
+}
+.button:hover{
+    background-color:rgba(12, 175, 181, 0.666);
+}
+h1{
+    text-align: center;
+    font-style: italic;
+}
